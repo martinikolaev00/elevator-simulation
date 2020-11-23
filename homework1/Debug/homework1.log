@@ -1,9 +1,3 @@
 ﻿  elevator.cpp
-D:\DSA\homework1\homework1\elevator.cpp(60,5): warning C4804: '<=': unsafe use of type 'bool' in operation
-D:\DSA\homework1\homework1\elevator.cpp(61,1): warning C4804: '>=': unsafe use of type 'bool' in operation
-  homework1.cpp
-  Generating Code...
-homework1.obj : error LNK2019: unresolved external symbol "public: __thiscall building::building(void)" (??0building@@QAE@XZ) referenced in function _main
-homework1.obj : error LNK2019: unresolved external symbol "public: __thiscall building::~building(void)" (??1building@@QAE@XZ) referenced in function _main
-homework1.obj : error LNK2019: unresolved external symbol "public: void __thiscall building::test(void)" (?test@building@@QAEXXZ) referenced in function _main
-D:\DSA\homework1\Debug\homework1.exe : fatal error LNK1120: 3 unresolved externals
+D:\DSA\homework1\homework1\elevator.cpp(165,17): warning C4018: '<': signed/unsigned mismatch
+  homework1.vcxproj -> D:\DSA\homework1\Debug\homework1.exe

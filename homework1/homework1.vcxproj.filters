@@ -21,11 +21,11 @@
     <ClCompile Include="elevator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="building.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="building.cpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="building.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
