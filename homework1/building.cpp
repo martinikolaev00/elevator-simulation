@@ -4,13 +4,16 @@
 building::building()
 {
 	int  firstcap = 0, secondcap = 0;
-	std::ifstream file("input.txt");
+	std::string filename;
+	std::cout << "Enter the filename for test: ";
+	std::cin >> filename;
+	std::ifstream file("filename");
 	if (file.is_open())
 		file >> floors >> firstcap >> secondcap >> requests;
 	else
 	{
 		std::cout << "Problem occured when opening file\n";
-		return;
+		throw std::logic_error("file with such name doest exist in the directory");
 	}
 	Elevator1 = new elevator(firstcap);
 	Elevator2 = new elevator(secondcap);
